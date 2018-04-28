@@ -1,33 +1,50 @@
-# History files
-.Rhistory
-.Rapp.history
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
 
-# Session Data files
-.RData
+# C extensions
+*.so
 
-# Example code in package build process
-*-Ex.R
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Output files from R CMD build
-/*.tar.gz
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Output files from R CMD check
-/*.Rcheck/
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
 
-# RStudio files
-.Rproj.user/
+# Translations
+*.mo
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
+# Rope
+.ropeproject
 
-# knitr and R markdown default cache directories
-/*_cache/
-/cache/
+# Django stuff:
+*.log
+*.pot
 
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
+# Sphinx documentation
+docs/_build/
